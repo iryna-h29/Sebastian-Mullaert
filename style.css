@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Montserrat';
+}
+main section#home {
+    min-height: 805px;
+    background-image: url(/img/bg-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* header {
+    position: fixed;
+    z-index: 3;
+} */
+nav .menu-items {
+    padding-top: 40px;
+}
+nav .menu-items li {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+nav .menu-items li:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+nav .menu-items li a{
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+nav .menu-items li a:hover {
+    opacity: 1;
+}
+nav .menu-items li.home {
+    margin-left: 60px;
+}
+nav .menu-items li.biography {
+    margin-left: 310px;
+}
+nav .menu-items li.studio {
+    margin-left: 100px;
+}
+nav .menu-items li.music {
+    margin-left: 60px;
+}
+nav .menu-items li.education {
+    margin-left: 80px;
+}
+nav .menu-items li.contact {
+    margin-left: 400px;
+}
+h1 {
+    position: relative;
+    top: 240px;
+    text-align: center;
+    font-family: 'David Libre', serif;
+    /* font-family: 'Quattrocento'; */
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 100px;
+    letter-spacing: 0.06em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+small.inscription {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+small.inscription.simplicity {
+    top: 181px;
+    left: 125px;
+}
+small.inscription.biography {
+    top: 455px;
+    left: 740px;
+}
+img.composer-image {
+    display: block;
+    position: absolute;
+    left: 432px;
+    top: 551px;
+    width: 640px;
+    height: 354px;
+    z-index: 2;
+}
+main section#about {
+    min-height: 800px;
+    background-color: #fff;
+    position: relative;
+}
+.green-inscr {
+    position: absolute;
+    color: #71870E;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.8;
+}
+section#about span.performancer {
+    top: 200px;
+    right: 65px;
+}
+section#about small.about {
+    color: black;
+    position: absolute;
+    top: 305px;
+    left: 210px;
+}
+h2.title {
+    position: relative;
+    top: 300px;
+    left: 210px;
+    text-align: right;
+    text-align-last: left;
+    width: 1000px;
+    font-family:'David Libre', serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 64px;
+}
+h2.title span {
+    color:#71870E;
+}
+section#about .about-artist {
+    position: relative;
+    margin: 0 auto;
+    top: 400px;
+    width: 640px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+section#about span.utterly {
+    top: 827px;
+    right: 412px;
+}
+section#about .text-aside {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 530px;
+    left: 10px;
+    font-size: 14px;
+    color: #71870E;
+    opacity: 0.4;
+}
+section#about .text-aside span {
+    writing-mode: vertical-rl;
+    transform:scale(-1);
+    margin-bottom: 30px;
+}
+section#about .text-aside .line-aside {
+    width: 2px;
+    height: 100px;
+    background-color: #71870E;
+}
